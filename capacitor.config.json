@@ -1,0 +1,9 @@
+{
+  "appId": "com.thelastmessage.game",
+  "appName": "The Last Message",
+  "webDir": "www",
+  "backgroundColor": "#0a0a0c",
+  "android": {
+    "allowMixedContent": false
+  }
+}

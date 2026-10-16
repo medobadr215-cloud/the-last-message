@@ -1,0 +1,17 @@
+{
+  "name": "the-last-message",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Last Message - story game (Android APK via Capacitor)",
+  "scripts": {
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/assets": "^3.0.5"
+  }
+}
