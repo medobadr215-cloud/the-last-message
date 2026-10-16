@@ -35,7 +35,10 @@ jobs:
 
       - name: Add Android platform
         run: npx cap add android
-
+        
+      - name: Show SDK versions
+        run: cat android/variables.gradle
+        
       - name: Generate app icons (skipped automatically if it fails)
         run: npx @capacitor/assets generate --android --iconBackgroundColor '#0a0a0c' --iconBackgroundColorDark '#0a0a0c' || echo "Icon generation skipped"
 
